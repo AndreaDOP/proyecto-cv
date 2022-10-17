@@ -1,0 +1,70 @@
+.flex {
+  height: 100vh;
+  width: 50%;
+}
+
+.container {
+  display: flex;
+}
+
+.section-1 {
+  background-color: rgb(247, 167, 27);
+  flex-direction: column;
+}
+
+.nombre {
+  display: flex;
+  margin-top: 150px;
+  margin-right: 150px;
+  margin-left: 150px;
+  align-items: center;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  color: aliceblue;
+}
+
+.section-2 {
+  background: url("../asset/foto.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container-networks {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  position: absolute;
+  height: 350px;
+  width: 50px;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  margin: auto;
+}
+
+.network {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  background-color: rgb(247, 225, 28);
+  box-shadow: 0px 0px 3px 5px white;
+  height: 65px;
+  width: 60px;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+}
+
+.contactar {
+  display: flex;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: aliceblue;
+  margin-left: 150px;
+}
